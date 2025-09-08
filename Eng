@@ -1,0 +1,144 @@
+<style>
+  :root{
+    --bg:#0b0d12;
+    --card:#12151d;
+    --muted:#8b93a7;
+    --text:#e9edf5;
+    --accent:#6cf0c2;
+    --accent-2:#4aa3ff;
+  }
+  *{box-sizing:border-box}
+  body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,"Noto Sans"}
+  a{color:var(--accent)}
+  .wrap{max-width:980px;margin:0 auto;padding:24px}
+  header{display:flex;align-items:center;gap:16px;padding:12px 0 20px;border-bottom:1px solid #222}
+  .logo{display:flex;align-items:center;gap:12px}
+  .logo-badge{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:grid;place-items:center;font-weight:800;color:#0b0d12}
+  h1{font-size:1.25rem;margin:0}
+  .tag{font-size:.85rem;color:var(--muted)}
+  .hero{position:relative;border-radius:18px;padding:22px 20px;margin:18px 0;background:linear-gradient(180deg,rgba(108,240,194,0.08),rgba(74,163,255,0.06));overflow:hidden}
+  .hero h2{margin:0 0 8px 0;font-size:1.15rem}
+  .hero p{margin:0;color:var(--muted)}
+  .wave{position:absolute;inset:auto -10% -50% -10%;height:220px;pointer-events:none;opacity:.18;filter:blur(1px)}
+  .grid{display:grid;grid-template-columns:1fr;gap:16px}
+  @media(min-width:820px){.grid{grid-template-columns:1fr 1fr}}
+  .card{background:var(--card);border:1px solid #1b1f2a;border-radius:16px;padding:16px}
+  .card h3{margin:0 0 8px 0;font-size:1.05rem}
+  .list{margin:8px 0 0 0;padding:0;list-style:none;display:grid;gap:8px}
+  .li{display:flex;gap:10px;align-items:flex-start}
+  .ico{width:26px;height:26px;border-radius:8px;display:grid;place-items:center;background:rgba(108,240,194,0.12);border:1px solid rgba(108,240,194,0.28);font-size:.95rem}
+  .step{display:flex;gap:12px;align-items:flex-start}
+  .num{min-width:26px;height:26px;border-radius:999px;display:grid;place-items:center;background:rgba(74,163,255,0.18);border:1px solid rgba(74,163,255,0.35);font-weight:700}
+  .muted{color:var(--muted)}
+  .faq details{background:var(--card);border:1px solid #1b1f2a;border-radius:12px;padding:10px}
+  .faq summary{cursor:pointer}
+  footer{margin:28px 0 12px 0;color:var(--muted);font-size:.85rem;text-align:center}
+  .badge{display:inline-flex;gap:8px;align-items:center;background:#0e1220;border:1px solid #1b2033;border-radius:999px;padding:6px 10px}
+  .qr{display:grid;grid-template-columns:100px 1fr;gap:12px;align-items:center}
+  .qrbox{width:100px;height:100px;border-radius:12px;border:1px dashed #2b3142;display:grid;place-items:center;color:var(--muted);font-size:.8rem}
+  .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+  .btn{background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#0b0d12;border:none;border-radius:12px;padding:10px 14px;font-weight:700;cursor:pointer}
+  .ghost{background:transparent;border:1px solid #2b3142;color:var(--text)}
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="logo">
+      <div class="logo-badge">PP</div>
+      <div>
+        <h1>PREPERFORMANCE • Calf Pads</h1>
+        <div class="tag">User Guide – Online Version (v1 minimal)</div>
+      </div>
+    </div>
+  </header>
+
+  <section class="hero">
+    <h2>Ready in 60 seconds. Recovery anywhere.</h2>
+    <p>Quick guides to start, adjust pressure, and care for your pads.</p>
+  </section>
+
+  <section class="grid">
+    <div class="card">
+      <h3>Box contents</h3>
+      <ul class="list">
+        <li class="li"><div class="ico">🦵</div><div>2× PREPERFORMANCE Calf Pads</div></li>
+        <li class="li"><div class="ico">🔌</div><div>USB‑C charging cable</div></li>
+        <li class="li"><div class="ico">⚙️</div><div>Integrated compression module(s)</div></li>
+        <li class="li"><div class="ico">📖</div><div>Quick start guide</div></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Before first use</h3>
+      <ul class="list">
+        <li class="li"><div class="ico">🔋</div><div>Fully charge (until <span class="muted">green LED</span>).</div></li>
+        <li class="li"><div class="ico">🧼</div><div>Clean skin/pads (dry, no cream) for better adhesion.</div></li>
+        <li class="li"><div class="ico">📏</div><div>Adjust strap to be <em>firm but comfortable</em>.</div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="card" style="margin-top:16px">
+    <h3>Usage steps (60s)</h3>
+    <div class="list">
+      <div class="step"><div class="num">1</div><div><strong>Place</strong> the pads at the middle of the calf (on the muscle). The strap should not slip.</div></div>
+      <div class="step"><div class="num">2</div><div><strong>Start</strong> the module ▶️ and select a <strong>program</strong> (P1 gentle / P2 medium / P3 intense).</div></div>
+      <div class="step"><div class="num">3</div><div><strong>Adjust the pressure</strong> (mmHg) to your comfort. Begin low, increase gradually.</div></div>
+      <div class="step"><div class="num">4</div><div><strong>Session</strong> 15–20 min/leg. Ideal after training, while traveling, or in the evening.</div></div>
+      <div class="step"><div class="num">5</div><div><strong>Finish</strong> → turn off, wipe pads (damp cloth), air dry.</div></div>
+    </div>
+    <div class="cta">
+      <button class="btn" onclick="window.scrollTo({top:document.body.scrollHeight,behavior:'smooth'})">View tips & safety</button>
+      <button class="btn ghost" onclick="window.print()">Print this page</button>
+    </div>
+  </section>
+
+  <section class="grid" style="margin-top:16px">
+    <div class="card">
+      <h3>Settings & tips</h3>
+      <ul class="list">
+        <li class="li"><div class="ico">📈</div><div><strong>Progression</strong>: increase intensity over several days, not all at once.</div></li>
+        <li class="li"><div class="ico">🔁</div><div><strong>Frequency</strong>: 1–2 sessions/day per leg depending on fatigue.</div></li>
+        <li class="li"><div class="ico">💧</div><div><strong>Hydration</strong>: drink before/after to optimize circulation.</div></li>
+        <li class="li"><div class="ico">🚶</div><div><strong>Synergy</strong>: walk 5–10 min after the session to activate the calf pump (the “second heart”).</div></li>
+      </ul>
+    </div>
+    <div class="card">
+      <h3>Safety & contraindications</h3>
+      <ul class="list">
+        <li class="li"><div class="ico">⛔</div><div>Do not use on open wounds, skin infections, or in case of acute pain.</div></li>
+        <li class="li"><div class="ico">❤️</div><div>If you have cardiovascular disease, DVT/thrombosis, or high‑risk pregnancy → <strong>seek medical advice</strong> first.</div></li>
+        <li class="li"><div class="ico">⚠️</div><div>If numbness, unusual pain or discoloration occur: stop and consult.</div></li>
+      </ul>
+    </div>
+  </section>
+
+  <section class="card faq" style="margin-top:16px">
+    <h3>Quick FAQ</h3>
+    <details>
+      <summary>Which pressure to choose at first?</summary>
+      <p class="muted">Start low (gentle to medium). The goal is active massage, never pain.</p>
+    </details>
+    <details>
+      <summary>How long per session?</summary>
+      <p class="muted">15–20 minutes per leg, up to twice a day if needed.</p>
+    </details>
+    <details>
+      <summary>During travel?</summary>
+      <p class="muted">Yes. The pads are designed for “on‑the‑go” recovery (train, bus, plane, hotel).</p>
+    </details>
+  </section>
+
+  <section class="card" style="margin-top:16px">
+    <h3>Detailed guide via QR</h3>
+    <div class="qr">
+      <div class="qrbox">QR<br/>placeholder</div>
+      <div>
+        <div class="muted">Paste here your QR to the tutorial video or help page.</div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <span class="badge">PREPERFORMANCE • Recovery Anytime, Anywhere</span>
+  </footer>
+</div>
