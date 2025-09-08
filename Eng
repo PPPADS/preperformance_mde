@@ -127,15 +127,17 @@
     </details>
   </section>
 
-  <section class="card" style="margin-top:16px">
-    <h3>Detailed guide via QR</h3>
-    <div class="qr">
-      <div class="qrbox">QR<br/>placeholder</div>
-      <div>
-        <div class="muted">Paste here your QR to the tutorial video or help page.</div>
-      </div>
-    </div>
-  </section>
+ <section class="card" style="margin-top:16px">
+  <h3>Tutorial Video</h3>
+  <div style="position:relative;padding-bottom:56.25%;height:0;overflow:hidden;border-radius:12px">
+    <iframe src="https://youtube.com/shorts/kxrXMSTkcAc?feature=share" 
+            frameborder="0" 
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+            allowfullscreen 
+            style="position:absolute;top:0;left:0;width:100%;height:100%;">
+    </iframe>
+  </div>
+</section>
 
   <footer>
     <span class="badge">PREPERFORMANCE • Recovery Anytime, Anywhere</span>
