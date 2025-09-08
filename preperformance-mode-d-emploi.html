@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PREPERFORMANCE – Mode d'emploi</title>
+  <style>
+    :root{--bg:#0b0d12;--card:#12151d;--muted:#8b93a7;--text:#e9edf5;--accent:#6cf0c2;--accent-2:#4aa3ff}
+    *{box-sizing:border-box}
+    html,body{margin:0;height:100%;background:var(--bg);color:var(--text);font-family:Inter,system-ui,-apple-system,Segoe UI,Roboto,Ubuntu,Cantarell,'Helvetica Neue',Arial,"Noto Sans"}
+    a{color:var(--accent)}.wrap{max-width:980px;margin:0 auto;padding:24px}
+    header{display:flex;align-items:center;gap:16px;padding:12px 0 20px;border-bottom:1px solid #222}
+    .logo{display:flex;align-items:center;gap:12px}
+    .logo-badge{width:42px;height:42px;border-radius:12px;background:linear-gradient(135deg,var(--accent),var(--accent-2));display:grid;place-items:center;font-weight:800;color:#0b0d12}
+    h1{font-size:1.25rem;margin:0}.tag{font-size:.85rem;color:var(--muted)}
+    .hero{position:relative;border-radius:18px;padding:22px 20px;margin:18px 0;background:linear-gradient(180deg,rgba(108,240,194,0.08),rgba(74,163,255,0.06));overflow:hidden}
+    .hero h2{margin:0 0 8px 0;font-size:1.15rem}.hero p{margin:0;color:var(--muted)}
+    .wave{position:absolute;inset:auto -10% -50% -10%;height:220px;pointer-events:none;opacity:.18;filter:blur(1px)}
+    .grid{display:grid;grid-template-columns:1fr;gap:16px}
+    @media(min-width:820px){.grid{grid-template-columns:1fr 1fr}}
+    .card{background:var(--card);border:1px solid #1b1f2a;border-radius:16px;padding:16px}
+    .card h3{margin:0 0 8px 0;font-size:1.05rem}
+    .list{margin:8px 0 0 0;padding:0;list-style:none;display:grid;gap:8px}
+    .li{display:flex;gap:10px;align-items:flex-start}
+    .ico{width:26px;height:26px;border-radius:8px;display:grid;place-items:center;background:rgba(108,240,194,0.12);border:1px solid rgba(108,240,194,0.28);font-size:.95rem}
+    .step{display:flex;gap:12px;align-items:flex-start}
+    .num{min-width:26px;height:26px;border-radius:999px;display:grid;place-items:center;background:rgba(74,163,255,0.18);border:1px solid rgba(74,163,255,0.35);font-weight:700}
+    .muted{color:var(--muted)}
+    .faq details{background:var(--card);border:1px solid #1b1f2a;border-radius:12px;padding:10px}
+    .faq summary{cursor:pointer}
+    footer{margin:28px 0 12px 0;color:var(--muted);font-size:.85rem;text-align:center}
+    .badge{display:inline-flex;gap:8px;align-items:center;background:#0e1220;border:1px solid #1b2033;border-radius:999px;padding:6px 10px}
+    .qr{display:grid;grid-template-columns:100px 1fr;gap:12px;align-items:center}
+    .qrbox{width:100px;height:100px;border-radius:12px;border:1px dashed #2b3142;display:grid;place-items:center;color:var(--muted);font-size:.8rem}
+    .cta{display:flex;gap:10px;flex-wrap:wrap;margin-top:10px}
+    .btn{background:linear-gradient(135deg,var(--accent),var(--accent-2));color:#0b0d12;border:none;border-radius:12px;padding:10px 14px;font-weight:700;cursor:pointer}
+    .ghost{background:transparent;border:1px solid #2b3142;color:var(--text)}
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <header>
+      <div class="logo">
+        <div class="logo-badge">PP</div>
+        <div>
+          <h1>PREPERFORMANCE • Pads mollets</h1>
+          <div class="tag">Mode d’emploi – Version en ligne</div>
+        </div>
+      </div>
+    </header>
+    <section class="hero">
+      <h2>Prêt en 60 secondes. Récupération partout.</h2>
+      <p>Guides rapides pour démarrer, régler la pression et entretenir vos pads.</p>
+    </section>
+    <section class="grid">
+      <div class="card">
+        <h3>Contenu de la boîte</h3>
+        <ul class="list">
+          <li class="li"><div class="ico">🦵</div><div>2× Pads mollets PREPERFORMANCE</div></li>
+          <li class="li"><div class="ico">🔌</div><div>Câble de charge USB‑C</div></li>
+          <li class="li"><div class="ico">⚙️</div><div>Module(s) de compression intégrés</div></li>
+          <li class="li"><div class="ico">📖</div><div>Guide de démarrage rapide</div></li>
+        </ul>
+      </div>
+      <div class="card">
+        <h3>Avant la première utilisation</h3>
+        <ul class="list">
+          <li class="li"><div class="ico">🔋</div><div>Chargez complètement (jusqu’à <span class="muted">LED verte</span>).</div></li>
+          <li class="li"><div class="ico">🧼</div><div>Nettoyez la peau/les pads (sec, sans crème) pour une meilleure adhérence.</div></li>
+          <li class="li"><div class="ico">📏</div><div>Ajustez la sangle pour qu’elle soit <em>bien serrée mais confortable</em>.</div></li>
+        </ul>
+      </div>
+    </section>
+    <section class="card" style="margin-top:16px">
+      <h3>Étapes d’utilisation (60s)</h3>
+      <div class="list">
+        <div class="step"><div class="num">1</div><div><strong>Positionnez</strong> les pads au milieu du mollet.</div></div>
+        <div class="step"><div class="num">2</div><div><strong>Démarrez</strong> le module ▶️ et choisissez un programme.</div></div>
+        <div class="step"><div class="num">3</div><div><strong>Ajustez la pression</strong> (mmHg) selon votre confort.</div></div>
+        <div class="step"><div class="num">4</div><div><strong>Session</strong> 15–20 min/jambe.</div></div>
+        <div class="step"><div class="num">5</div><div><strong>Terminez</strong> et nettoyez les pads.</div></div>
+      </div>
+    </section>
+    <section class="card faq" style="margin-top:16px">
+      <h3>FAQ rapide</h3>
+      <details><summary>Quelle pression choisir ?</summary><p class="muted">Commencez bas (faible à moyen).</p></details>
+      <details><summary>Combien de temps ?</summary><p class="muted">15–20 minutes par jambe.</p></details>
+    </section>
+    <footer><span class="badge">PREPERFORMANCE • Recovery Anytime, Anywhere</span></footer>
+  </div>
+</body>
+</html>
