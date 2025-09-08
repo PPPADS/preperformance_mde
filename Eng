@@ -54,7 +54,7 @@
 
   <section class="hero">
     <h2>Ready in 60 seconds. Recovery anywhere.</h2>
-    <p>Quick guides to start, adjust pressure, and care for your pads.</p>
+    <p>This online manual replaces a paper quick start guide. Follow the steps below to get started, adjust settings, and ensure safe use.</p>
   </section>
 
   <section class="grid">
@@ -62,9 +62,8 @@
       <h3>Box contents</h3>
       <ul class="list">
         <li class="li"><div class="ico">🦵</div><div>2× PREPERFORMANCE Calf Pads</div></li>
-        <li class="li"><div class="ico">🔌</div><div>USB‑C charging cable</div></li>
+        <li class="li"><div class="ico">🔌</div><div>USB-C charging cable</div></li>
         <li class="li"><div class="ico">⚙️</div><div>Integrated compression module(s)</div></li>
-        <li class="li"><div class="ico">📖</div><div>Quick start guide</div></li>
       </ul>
     </div>
     <div class="card">
@@ -106,7 +105,7 @@
       <h3>Safety & contraindications</h3>
       <ul class="list">
         <li class="li"><div class="ico">⛔</div><div>Do not use on open wounds, skin infections, or in case of acute pain.</div></li>
-        <li class="li"><div class="ico">❤️</div><div>If you have cardiovascular disease, DVT/thrombosis, or high‑risk pregnancy → <strong>seek medical advice</strong> first.</div></li>
+        <li class="li"><div class="ico">❤️</div><div>If you have cardiovascular disease, DVT/thrombosis, or high-risk pregnancy → <strong>seek medical advice</strong> first.</div></li>
         <li class="li"><div class="ico">⚠️</div><div>If numbness, unusual pain or discoloration occur: stop and consult.</div></li>
       </ul>
     </div>
@@ -124,7 +123,7 @@
     </details>
     <details>
       <summary>During travel?</summary>
-      <p class="muted">Yes. The pads are designed for “on‑the‑go” recovery (train, bus, plane, hotel).</p>
+      <p class="muted">Yes. The pads are designed for “on-the-go” recovery (train, bus, plane, hotel).</p>
     </details>
   </section>
 
